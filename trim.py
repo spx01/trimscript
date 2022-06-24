@@ -265,8 +265,8 @@ base_command = " ".join(
         f"-y",
         f"-v error",
         f"-ss {start_time}",
-        f"-to {end_time}",
         f'-i "{in_path}"',
+        f"-to {end_time}",
     ]
 )
 
